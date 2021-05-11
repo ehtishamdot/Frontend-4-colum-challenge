@@ -15,10 +15,6 @@
      box-sizing: inherit;
  }
    /* Universal */
-html,
-body{
-    
-}
 html{
     box-sizing: border-box;  
 }
@@ -149,6 +145,11 @@ img{
         margin-bottom: 2rem;
      }
      .typography{
-         width: 100%;
+        width: 100%;
+    }
+     .primary_heading,
+     .secondary_heading
+     {
+        font-size: 1.8em; 
      }
 }
