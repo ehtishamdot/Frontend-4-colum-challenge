@@ -1,0 +1,135 @@
+:root {
+    --color-primary-cyan: hsl(180, 62%, 55%);
+    --color-primary-orange: hsl(34, 97%, 64%);
+    --color-primary-blue: hsl(212, 86%, 64%);
+    --color-primary-red: hsl(0, 78%, 62%);
+    --color-neutral-dark-blue: hsl(234, 12%, 34%);
+    --color-neutral-grayish-blue: hsl(229, 6%, 66%);
+    --color-neutral-light-gray: hsl(0, 0%, 98%);
+ }
+
+
+ *,
+ ::before,
+ ::after{
+     box-sizing: inherit;
+ }
+   /* Universal */
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--color-neutral-grayish-blue);
+    background-color: var(--color-neutral-light-gray);
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;   
+    
+}
+
+section{     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;     
+}
+
+.container{ 
+    width: 80%;   
+    width: 50%;
+}
+
+/* typography */
+
+.typography{
+    max-width: 35%;
+    min-width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.primary_heading,
+.secondary_heading,
+.box_heading{
+    color: var(--color-neutral-dark-blue);
+}
+
+.primary_heading,
+.secondary_heading{
+    font-size: 2.8em;      
+}
+.primary_heading{
+    margin-bottom: -.5rem;
+    font-weight: 100; 
+    line-height: 3.1rem;
+}
+.secondary_heading{
+    margin: .5rem 0;
+    color: var(--color-neutral-dark-blue);
+}
+.paragraph_heading{
+    margin-top: 1rem;
+    font-size: 1.2em;
+}
+.box_heading{
+    font-size: 1.5em;
+    color: var(--color-neutral-dark-blue);
+}
+.paragraph_box{ 
+    color: var(--color-neutral-grayish-blue);
+    font-weight: 400;
+    margin-top: -.5rem;           
+}
+img{   
+    align-self: flex-end;
+    margin-top: 1rem; 
+}
+
+  /* boxses */
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.boxes > :not(:last-child) {
+    margin-right: 3rem;
+ }
+.box{
+    /* width: 22%; */
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem 2rem;
+    line-height: 1.3rem;  
+    background-color:#fff;
+    box-shadow: 0 1.3rem 2rem #d8e2ee; 
+    border-radius: 1rem;
+    height: 24vh;
+    
+}
+
+.boxes_middile{
+    /* width: 22%; */
+}
+.box3,.box2{
+    width: 100%; 
+}
+
+.box1{
+  border-top:var( --color-primary-cyan) 4px solid;
+}
+.box2{
+    border-top:var( --color-primary-red) 4px solid;
+}
+.box3{  
+    margin-top: 2rem; 
+    border-top:var( --color-primary-orange) 4px solid;
+}
+.box4{
+    border-top:var( --color-primary-blue) 4px solid;
+}
+
+@media
