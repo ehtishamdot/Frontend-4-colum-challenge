@@ -8,12 +8,12 @@
 
 Desktop:
 
-![](/finishedproduct/desktop.png "Desktop")
+![](desktop.png "Desktop")
 
 
 Mobile:
 
-![](/finishedproduct/mobile.png "Mobile")
+![](mobile.png "Mobile")
 
 
 ## My process
