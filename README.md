@@ -13,7 +13,7 @@ Desktop:
 
 Mobile:
 
-![](mobile.png "Mobile")
+![](tablet.png "Mobile")
 
 
 ## My process
