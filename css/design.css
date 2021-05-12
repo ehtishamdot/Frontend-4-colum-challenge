@@ -117,7 +117,7 @@ img{
   border-top:var( --color-primary-cyan) 4px solid;
 }
 .box2{
-    border-top:var( --color-primary-red) 4px solid;
+  border-top:var( --color-primary-red) 4px solid;
 }
 .box3{  
     margin-top: 2rem; 
